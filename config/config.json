@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "vitaliy",
+    "password": "1111",
+    "database": "govorikadb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "vitaliy",
+    "password": "1111",
+    "database": "govorikadb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "vitaliy",
+    "password": "q1w2e3r4t5y6",
+    "database": "govorikadb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

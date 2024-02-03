@@ -1,0 +1,41 @@
+{
+  "name": "therapyServerNewVersion",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@admin-bro/express": "^3.0.1",
+    "@admin-bro/sequelize": "^1.1.1",
+    "@admin-bro/typeorm": "^1.4.0",
+    "admin-bro": "^3.3.1",
+    "admin-bro-typeorm": "^0.1.6-alpha.9",
+    "aws-sdk": "^2.902.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-formidable": "^1.2.0",
+    "formidable": "^2.0.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "https": "^1.0.0",
+    "jade": "^1.9.2",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.2.5",
+    "node-cron": "^3.0.2",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.3",
+    "pg-promise": "^10.7.1",
+    "qs": "^6.9.6",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "sequelize": "^6.3.5",
+    "stringify": "^5.2.0",
+    "uuid": "^8.3.2"
+  }
+}

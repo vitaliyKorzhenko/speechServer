@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "doadmin",
+    "password": "b2bhenfq5t4xgz0f",
+    "database": "defaultdb",
+    "host": "speechtherapycluster-do-user-8320828-0.b.db.ondigitalocean.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "ssl": true,
+    "port": "25060"
+  },
+  "test": {
+    "username": "doadmin",
+    "password": "b2bhenfq5t4xgz0f",
+    "database": "defaultdb",
+    "host": "speechtherapycluster-do-user-8320828-0.b.db.ondigitalocean.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    },
+    "ssl": true,
+    "port": "25060"
+  },
+  "production": {
+    "username": "doadmin",
+    "password": "b2bhenfq5t4xgz0f",
+    "database": "defaultdb",
+    "host": "speechtherapycluster-do-user-8320828-0.b.db.ondigitalocean.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    },
+    "ssl": true,
+    "port": "25060"
+  }
+}
